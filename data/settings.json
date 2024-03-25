@@ -2,7 +2,7 @@
   "favicon": "https://cdn.jsdelivr.net/gh/xjh22222228/nav@image/logo.png",
   "homeUrl": "https://nav3.cn",
   "language": "zh-CN",
-  "loading": "random",
+  "loading": "loading4",
   "showGithub": false,
   "title": "皓月科技 - 精选实用导航网站",
   "description": "皓月科技 - 精选实用导航网站",
@@ -57,13 +57,7 @@
       "height": null
     },
     {
-      "src": "https://images.wallpaperscraft.com/image/single/trees_river_rocks_1204811_1280x720.jpg",
-      "url": "",
-      "width": null,
-      "height": null
-    },
-    {
-      "src": "https://images.wallpaperscraft.com/image/single/fishing_fisherman_fishing_rod_205828_1280x720.jpg",
+      "src": "https://images.wallpaperscraft.com/image/single/grass_drops_light_1176881_1280x720.jpg",
       "url": "",
       "width": null,
       "height": null
@@ -80,7 +74,7 @@
       "height": null
     }
   ],
-  "showLanguage": true,
+  "showLanguage": false,
   "showRate": true,
   "mirrorList": []
 }
