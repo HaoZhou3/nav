@@ -9,7 +9,7 @@
   "keywords": "导航,前端资源,社区站点,设计师,实用工具,学习资源,运营,网络安全,node.js",
   "theme": "Sim",
   "appTheme": "Sim",
-  "headerContent": "",
+  "headerContent": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Your Website</title>\n    <!-- CSS for centering -->\n    <style>\n        .center {\n            text-align: center;\n            margin-top: 50px; /* Adjust this value based on your design */\n        }\n    </style>\n</head>\n<body>\n    <!-- Header section -->\n    <header>\n        <!-- Your navigation or other header content goes here -->\n    </header>\n\n    <!-- Main content -->\n    <main>\n        <!-- Content of your website goes here -->\n        <!-- This is where the quote will be displayed -->\n        <div class=\"center\" id=\"quoteContainer\">\n            <!-- The quote will be dynamically inserted here -->\n        </div>\n    </main>\n\n    <!-- Footer section -->\n    <footer>\n        <!-- Your footer content goes here -->\n    </footer>\n\n    <!-- JavaScript to fetch and display the quote -->\n    <script>\n        // Fetch quote from API\n        fetch('https://api.xygeng.cn/one/get/')\n            .then(response => response.json())\n            .then(data => {\n                // Display the quote in the quoteContainer div\n                document.getElementById('quoteContainer').innerHTML = `<p>${data.content}</p>`;\n            })\n            .catch(error => console.error('Error fetching quote:', error));\n    </script>\n</body>\n</html>\n",
   "footerContent": "<div style=\"font-weight: bold;\">共收录${total}个网站</div><div>皓月满空❤2024</div>",
   "iconfontUrl": "//at.alicdn.com/t/font_2522843_wl70o31sy6.js",
   "baiduStatisticsUrl": "https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba",
@@ -40,7 +40,7 @@
       "height": null
     }
   ],
-  "simThemeDesc": "<b><script type=\"text/javascript\" src=\"https://api.xygeng.cn/one/get/\"></script></b>",
+  "simThemeDesc": "收录多达 <b>${total}</b> 个优质网站， 助您工作、学习和生活",
   "simThemeHeight": 350,
   "simThemeAutoplay": true,
   "sideThemeImages": [
