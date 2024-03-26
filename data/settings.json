@@ -10,7 +10,7 @@
   "theme": "Sim",
   "appTheme": "Sim",
   "headerContent": "",
-  "footerContent": "<div style=\"font-weight: bold;\">共收录${total}个网站</div><div>皓月满空2024</div>",
+  "footerContent": "<div style=\"font-weight: bold;\">共收录${total}个网站</div><div>皓月满空❤2024</div>",
   "iconfontUrl": "//at.alicdn.com/t/font_2522843_wl70o31sy6.js",
   "baiduStatisticsUrl": "https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba",
   "cnzzStatisticsUrl": "",
@@ -40,7 +40,7 @@
       "height": null
     }
   ],
-  "simThemeDesc": "<script type=\"text/javascript\" src=\"https://api.xygeng.cn/one/get/\"></script>",
+  "simThemeDesc": "<b><script type=\"text/javascript\" src=\"https://api.xygeng.cn/one/get/\"></script></b>",
   "simThemeHeight": 350,
   "simThemeAutoplay": true,
   "sideThemeImages": [
