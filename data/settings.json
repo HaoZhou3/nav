@@ -10,7 +10,7 @@
   "theme": "Sim",
   "appTheme": "App",
   "headerContent": "",
-  "footerContent": "<div style=\"font-weight: bold;\">共收录${total}个网站</div><div>皓月满空❤ 2024 ❤</div>",
+  "footerContent": "<div>2024-2024 ღ皓月满空</div>\n<div id=\"site-uptime\"></div>\n<script>\n// 获取网站开始运行的时间（2024/03/20 00:00:00）\nvar siteStartTime = new Date(\"2024-03-20T00:00:00Z\");\n\n// 更新已运行时间\nfunction updateSiteUptime() {\nvar now = new Date();\nvar uptime = now - siteStartTime; // 获取已运行的毫秒数\n// 计算天、小时、分钟和秒\nvar days = Math.floor(uptime / (1000 * 60 * 60 * 24));\nvar hours = Math.floor((uptime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\nvar minutes = Math.floor((uptime % (1000 * 60 * 60)) / (1000 * 60));\nvar seconds = Math.floor((uptime % (1000 * 60)) / 1000);\n\n// 构建展示文本\nvar uptimeText = \"网站已运行 \" + days + \" 天 \" + hours + \" 时 \" + minutes + \" 分 \" + seconds + \" 秒\";\n\n// 将时间插入到页面元素中\nvar siteUptimeElement = document.getElementById(\"site-uptime\");\nsiteUptimeElement.innerHTML = uptimeText;\n}\n\n// 每秒更新一次已运行时间\nsetInterval(updateSiteUptime, 1000);\n</script>",
   "iconfontUrl": "//at.alicdn.com/t/font_2522843_wl70o31sy6.js",
   "baiduStatisticsUrl": "https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba",
   "cnzzStatisticsUrl": "",
